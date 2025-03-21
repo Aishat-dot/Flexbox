@@ -1,0 +1,19 @@
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome */
+    -moz-box-sizing: border-box;    /* Firefox */
+    -o-box-sizing: border-box;      /*Opera*/
+    -ms-box-sizing: border-box;     /*Microsoft*/
+    box-sizing: border-box;         /*Standard*/
+}
+a:hover {
+    background-color: cyan; color: green;
+    padding: 30px;
+}
+body {
+    margin: 0px;
+}
+nav {   
+    display: flex; flex-direction: row;
+    justify-content: flex-start; align-items: stretch; align-content: stretch;
+    background-color: #07575b; height: 200px; margin: 10px; padding-top: 5px; color:aliceblue;
+}
