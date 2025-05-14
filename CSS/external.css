@@ -19,13 +19,15 @@ nav a {
 nav ul {
     list-style-type: none;
     background-color: #07575B;
-    height: 200px;
+    height: 900px;
     margin: 10px;
     padding-top: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex: 2 0 215px;
+    flex-direction: row;
 }
 nav ul a {
     text-decoration: none;
